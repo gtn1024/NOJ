@@ -63,7 +63,8 @@
         "zsgsdesign/noj-admin-clike-editor": "^1.0.0",
         "fonts-asset/simsun": "^1.0",
         "barryvdh/laravel-snappy": "^0.4.8",
-        "fonts-asset/dejavu": "dev-main"
+        "fonts-asset/dejavu": "dev-main",
+        "nesk/puphpeteer": "^2.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
