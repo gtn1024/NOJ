@@ -1,4 +1,5 @@
 require('./bootstrap');
+require('./bmd');
 require('./hljs');
 require('./dompurify');
 require('./mediumzoom');

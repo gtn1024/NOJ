@@ -48,7 +48,7 @@ mix.scripts([
 // Compile NOJ JS Libraries Bundle - app.js
 mix.scripts([
     'public/static/js/build/app.temp.js',
-    'node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js',
+    // 'node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js',
     'node_modules/pdfobject/pdfobject.min.js',
     'node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js',
     'node_modules/noj-jquery-ui-sortable/dist/jquery-ui-sortable.min.js',
@@ -62,7 +62,7 @@ mix.scripts([
 // Compile NOJ CSS Libraries Bundle - app.css
 mix.styles([
     'public/static/css/build/app.temp.css',
-    'node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css',
+    // 'node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css',
     'node_modules/animate.css/animate.min.css',
     'resources/css/main.css',
     'node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css',
