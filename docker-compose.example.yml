@@ -3,7 +3,7 @@ services:
 
   nginx:
     image: zsgsdesign/laravel-nginx:latest
-    restart: always
+    restart: unless-stopped
     tty: true
     ports:
       - "80:80" # custom_port:80
@@ -16,7 +16,7 @@ services:
 
   php-fpm:
     image: zsgsdesign/laravel-php-oci:latest
-    restart: always
+    restart: unless-stopped
     tty: true
     volumes:
       - ./:/var/www
